@@ -12,7 +12,7 @@
     />
   </head>
   <body class="grid-container">
-    <!-- parte 1 MENU-->
+
     <nav class="navbar">
       <div class="logo-container">
         <a href="#"
@@ -20,17 +20,17 @@
         /></a>
       </div>
       <ul class="menu">
-        <li class="link-menu">Inicio</li>
-        <li class="link-menu">acerca de</li>
-        <li class="link-menu">Projectos</li>
-        <li class="link-menu">Redes</li>
+        <a href="#about"><li class="link-menu">Inicio</li></a>
+        <a href="#about"><li class="link-menu">Acerca de</li></a>
+        <a href="#projects"><li class="link-menu">Projectos</li></a>
+        <a href="#footer"><li class="link-menu">Redes</li></a>
       </ul>
     </nav>
-    <!-- parte 2 BIENVENIDA-ACERCA -->
-    <header class="header">
+ 
+    <header class="header" id="about">
       <small>Hola, mi nombre es</small>
       <h1>Ulises Hernández</h1>
-      <p class="rol">Desarrollador Web</p>
+      <p class="rol">Desarrollador Web Jr.</p>
       <div class="icons-container">
         <img class="language-icon" src="/assets/icons/html.png" alt="html" />
         <img class="language-icon" src="/assets/icons/css-3.png" alt="css" />
@@ -52,12 +52,8 @@
       </p>
     </header>
 
-    <!-- parte 3 CONTACTO-->
-
-    <section id="about" class="contact-section"></section>
-
-    <!-- parte 4 PROYECTOS -->
     <section id="projects" class="projects-section">
+      <h2 class="title-projects">Proyectos que he realizado 💼</h2>
       <div class="container__cards">
         <div class="card">
           <div class="cover__card">
@@ -78,7 +74,7 @@
           />
           <hr />
           <div class="footer__card">
-            <button><a href="" target="_blank">Visitar</a></button>
+            <button><a href="https://adivina-numero-juego.netlify.app/" target="_blank">Visitar</a></button>
           </div>
         </div>
 
@@ -101,13 +97,13 @@
           />
           <hr />
           <div class="footer__card">
-            <button><a href="" target="_blank">Visitar</a></button>
+            <button><a href="https://calculadora-cazio.netlify.app/" target="_blank">Visitar</a></button>
           </div>
         </div>
 
         <div class="card">
           <div class="cover__card">
-            <img src="/assets/img/img-2.jpg" alt="" />
+            <img src="/assets/img/clima-app.png" alt="" />
           </div>
           <h2>Aplicación Clima 🌤</h2>
           <p>
@@ -124,20 +120,19 @@
           />
           <hr />
           <div class="footer__card">
-            <button><a href="" target="_blank">Visitar</a></button>
+            <button><a href="/clima/index.html" target="_blank">Visitar</a></button>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- parte 5 PIE DE PAGINA -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <p>Redes Sociales</p>
       <div class="media-container">
-        <img src="/assets/icons/github.png" alt="github" />
-        <img src="/assets/icons/linkedin.png" alt="linkedin" />
+        <a href="https://github.com/uliseshm" target="_blank"><img src="/assets/icons/github.png" alt="github" /></a>
+        <a href=""><img src="/assets/icons/linkedin.png" alt="linkedin" /></a>
       </div>
-      <small>Desarrollado por Ulises 👓</small>
+      <small class="sign">Desarrollado por Ulises 👓</small>
     </footer>
   </body>
 </html>
