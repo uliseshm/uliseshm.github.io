@@ -517,8 +517,20 @@ button[type="submit"]:hover {
 }
 
 /* ESTILOS DISPOSITIVOS MOVILES */
-@media screen and (max-width: 550px) {
+@media screen and (width < 550px) {
+
+    .main-container{
+        width: 100vw;
+    }
     .header {
         flex-direction: column;
+    }
+
+    .titles h1{
+        font-size: 1.9rem;
+    }
+
+    .titles p{
+        font-size: 1.2rem;
     }
 }
