@@ -8,11 +8,6 @@
 }
 
 :root {
-    /* --blue: #0f172a;
-  --gray: #c2c2c2;
-  --dark-mode: #323232;
-  --light-mode: #F0FEF4;
-  --font-color-ligth: ; */
     --color1: #8793CC;
     --color2: #465699;
     --color3: #F0F3FF;
@@ -523,6 +518,10 @@ button[type="submit"]:hover {
     }
     .header {
         flex-direction: column;
+    }
+
+    .logo img {
+        background-color: var(--color1);
     }
 
     .titles h1{
