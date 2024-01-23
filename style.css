@@ -306,7 +306,6 @@ body {
     align-items: center;
     padding: .5rem;
     gap: 1rem;
-    /* background-color: rgba(0, 0, 0, 0.2); */
     border-radius: .8rem;
 }
 
@@ -532,5 +531,13 @@ button[type="submit"]:hover {
 
     .titles p{
         font-size: 1.2rem;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .tech-container {
+        flex-wrap: wrap;
     }
 }
