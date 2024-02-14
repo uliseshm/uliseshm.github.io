@@ -133,9 +133,10 @@ body {
     margin-top: 10px;
 }
 
-.list-projects li {
-    background-color: yellow;
-    width: fit-content;
+.list-projects li a{
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 500;
 }
 
 .list-projects .project {
@@ -538,5 +539,9 @@ button[type="submit"]:hover {
 
     .tech-container {
         flex-wrap: wrap;
+    }
+
+    .inputs-container {
+        padding: 1.4rem 1.1rem;
     }
 }
