@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
   <script src="https://kit.fontawesome.com/185e10e4a8.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('p0P-xeiC8OvZTPFY_')
+  </script>
   <title>Ulises Hernández | Desarrollador Frontend</title>
 </head>
 
@@ -18,7 +23,7 @@
     <header class="header">
       <div class="toggle-container">
         <label for="toggle-cbx" id="toggle-label" class="toggle-label"><i class="fa-solid fa-moon"></i></label>
-      <input type="checkbox" id="toggle-cbx" class="toggle-cbx">
+        <input type="checkbox" id="toggle-cbx" class="toggle-cbx">
       </div>
       <div class="logo">
         <img src="./assets/avatar.png" alt="logo">
@@ -27,11 +32,11 @@
         <h1>Ulises Hernández</h1>
         <p>Desarrollador Frontend</p>
         <div class="icons">
-          <a href="https://github.com/uliseshm" target="_blank"
-          rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-          
-          <a href="https://www.linkedin.com/in/uliseshm-dev/" target="_blank"
-          rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/uliseshm" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-github"></i></a>
+
+          <a href="https://www.linkedin.com/in/uliseshm-dev/" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </header>
@@ -40,7 +45,8 @@
     <section class="about">
       <h2 class="title">Sobre mi</h2>
       <p>Soy un Desarrollador Frontend que cuenta con conocimientos solidos en tecnologías web, como <span>HTML</span>,
-        <span>CSS</span> y <span>JavaScript</span>.</p>
+        <span>CSS</span> y <span>JavaScript</span>.
+      </p>
       <p>He aprendido <span>React</span> de forma inicial, para seguir aumentando mis herramientas de desarrollo, además
         de que me gusta estar en constante aprendizaje.</p>
       <p>Me gusta el trabajo en equipo, aprender nuevas tecnologias y enfrentar nuevos retos. 📌</p>
@@ -51,8 +57,10 @@
           comprender las bases de la maquetación. A traves de esto, nació la curiosidad por seguir aprendiendo por mi
           cuenta todo lo relacionado con el desarrollo web.</p>
         <ul class="list-projects">
-          <li class="project"><a href="https://github.com/uliseshm/menu-navegacion" target="_blank" rel="noopener noreferrer">Proyecto Menú de navegación</a></li>
-          <li class="project"><a href="https://github.com/uliseshm/proyecto-login" target="_blank" rel="noopener noreferrer">Proyecto Login</a></li>
+          <li class="project"><a href="https://github.com/uliseshm/menu-navegacion" target="_blank"
+              rel="noopener noreferrer">Proyecto Menú de navegación</a></li>
+          <li class="project"><a href="https://github.com/uliseshm/proyecto-login" target="_blank"
+              rel="noopener noreferrer">Proyecto Login</a></li>
         </ul>
       </article>
 
@@ -91,14 +99,15 @@
           </div>
           <div class="info-container">
             <h3>Buscador de películas</h3>
-            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga sunt perspiciatis exercitationem
+            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga sunt
+              perspiciatis exercitationem
               provident sit autem explicabo possimus tempore laudantium obcaecati totam deserunt qui, voluptatem error
               ex in molestias veniam.</p>
-              <div class="icons-container">
-                <i class="fa-brands fa-js icon-card"></i>
-                <i class="fa-brands fa-css3-alt icon-card"></i>
-                <i class="fa-brands fa-html5 icon-card"></i>
-              </div>
+            <div class="icons-container">
+              <i class="fa-brands fa-js icon-card"></i>
+              <i class="fa-brands fa-css3-alt icon-card"></i>
+              <i class="fa-brands fa-html5 icon-card"></i>
+            </div>
             <button><a href="http://" target="_blank" rel="noopener noreferrer">Visitar</a></button>
           </div>
         </article>
@@ -109,15 +118,16 @@
           </div>
           <div class="info-container">
             <h3>Juego !Adivina el número¡</h3>
-            <p class="card-description">Divertido juego, en el cuál agregue un límite de intentos a traves de javascript, y añadí elementos de animación mostrando el resultado. Fue
+            <p class="card-description">Divertido juego, en el cuál agregue un límite de intentos a traves de
+              javascript, y añadí elementos de animación mostrando el resultado. Fue
               desarrollado con:</p>
             <div class="icons-container">
-            <i class="fa-brands fa-js icon-card"></i>
-            <i class="fa-brands fa-css3-alt icon-card"></i>
-            <i class="fa-brands fa-html5 icon-card"></i>
-          </div>
-          <button><a href="https://adivina-numero-juego.netlify.app/" target="_blank"
-              rel="noopener noreferrer">Visitar</a></button>
+              <i class="fa-brands fa-js icon-card"></i>
+              <i class="fa-brands fa-css3-alt icon-card"></i>
+              <i class="fa-brands fa-html5 icon-card"></i>
+            </div>
+            <button><a href="https://adivina-numero-juego.netlify.app/" target="_blank"
+                rel="noopener noreferrer">Visitar</a></button>
           </div>
         </article>
 
@@ -127,12 +137,13 @@
           </div>
           <div class="info-container">
             <h3>Aplicación del Clima</h3>
-            <p class="card-description">Proyecto desarrollado para la manipulación de una API con JavaScript, procesar los datos obtenidos y desarrollar una interfaz para mostrarlos.</p>
-              <div class="icons-container">
-                <i class="fa-brands fa-js icon-card"></i>
-                <i class="fa-brands fa-css3-alt icon-card"></i>
-                <i class="fa-brands fa-html5 icon-card"></i>
-              </div>
+            <p class="card-description">Proyecto desarrollado para la manipulación de una API con JavaScript, procesar
+              los datos obtenidos y desarrollar una interfaz para mostrarlos.</p>
+            <div class="icons-container">
+              <i class="fa-brands fa-js icon-card"></i>
+              <i class="fa-brands fa-css3-alt icon-card"></i>
+              <i class="fa-brands fa-html5 icon-card"></i>
+            </div>
             <button><a href="https://uliseshm.github.io/clima/index.html" target="_blank"
                 rel="noopener noreferrer">Visitar</a></button>
           </div>
@@ -144,12 +155,13 @@
           </div>
           <div class="info-container">
             <h3>Calculadora Cazio</h3>
-            <p class="card-description">Maquetación de calculadora estilo Casio, desarrollada para mejorar en el aspecto visual, además, se agregó funcionalidad al boton de borrar digito con JavaScript.</p>
-              <div class="icons-container">
-                <i class="fa-brands fa-js icon-card"></i>
-                <i class="fa-brands fa-css3-alt icon-card"></i>
-                <i class="fa-brands fa-html5 icon-card"></i>
-              </div>
+            <p class="card-description">Maquetación de calculadora estilo Casio, desarrollada para mejorar en el aspecto
+              visual, además, se agregó funcionalidad al boton de borrar digito con JavaScript.</p>
+            <div class="icons-container">
+              <i class="fa-brands fa-js icon-card"></i>
+              <i class="fa-brands fa-css3-alt icon-card"></i>
+              <i class="fa-brands fa-html5 icon-card"></i>
+            </div>
             <button><a href="https://calculadora-cazio.netlify.app/" target="_blank"
                 rel="noopener noreferrer">Visitar</a></button>
           </div>
@@ -161,13 +173,15 @@
     <!-- SECCION CONTACTO -->
     <section class="contact">
       <h2 class="title">Contacto</h2>
-      <form action="">
+      <form action="" id="form">
         <div class="inputs-container">
+          <label for="name">Nombre:</label>
+          <input type="text" placeholder="Ej. Juan López" name="name" id="name" required>
           <label for="email">Correo electronico:</label>
-          <input type="email" placeholder="Ej. usuario@ejemplo.com" name="email" required>
+          <input type="email" placeholder="Ej. usuario@ejemplo.com" name="email" id="email" required>
           <label for="message">Mensaje:</label>
-          <textarea name="message" rows="5" placeholder="Escribe tu mensaje"></textarea>
-          <button type="submit"><i class="fa-solid fa-paper-plane"></i>Enviar</button>
+          <textarea name="message" rows="5" placeholder="Escribe tu mensaje" id="message"></textarea>
+          <button type="submit" id="button"><i class="fa-solid fa-paper-plane"></i>Enviar</button>
         </div>
       </form>
     </section>
@@ -176,8 +190,10 @@
 
     <footer class="footer">
       <div class="links-container">
-        <a href="https://github.com/uliseshm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/uliseshm-dev/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/uliseshm" target="_blank" rel="noopener noreferrer"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/uliseshm-dev/" target="_blank" rel="noopener noreferrer"><i
+            class="fa-brands fa-linkedin"></i></a>
       </div>
 
       <small class="sign">Desarrollado por Ulises 👓</small>

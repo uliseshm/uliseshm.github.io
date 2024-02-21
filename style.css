@@ -371,6 +371,20 @@ body {
     gap: .5rem;
 }
 
+.inputs-container input[type="text"] {
+    font-size: 1.1rem;
+    border-radius: .4rem;
+    padding: 6px;
+    background-color: #cac8c8;
+    border: hidden;
+    border: 2px;
+    outline: none;
+}
+
+.inputs-container input[type="text"]:focus {
+    box-shadow: 0 0 5px 1px var(--color4);
+}
+
 .inputs-container input[type="email"] {
     font-size: 1.1rem;
     border-radius: .4rem;
